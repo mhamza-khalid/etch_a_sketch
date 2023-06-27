@@ -8,9 +8,11 @@ const submit1 = document.querySelector('.submit'); //ref to submit button
 
 const clear = document.querySelector('.clear');
 
+const erase = document.querySelector('.erase');
 
-
-
+erase.addEventListener('click', ()=>{
+      userColor = 'white';
+});
 
 clear.addEventListener('click', ()=>{
   eraseGrid();
