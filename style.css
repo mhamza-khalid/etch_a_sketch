@@ -110,4 +110,10 @@
 }
 
 
-
+.erase{
+    margin:12px;
+    margin-top: 1px;
+    font-family: monospace;
+    font-size: 18px;
+    padding:10px;
+}
