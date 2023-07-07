@@ -33,6 +33,7 @@ submit1.addEventListener('click', () => {
 function editGrid(){
   let x = document.getElementById('textbox').value;  //stores textbox value in x
   if (x > 64) return;        //user limit upto 64
+  x = Math.floor(x);         //round value to nearest whole number. userGridVAlue = 6.3 => 6
   userGridValue = x;
   eraseGrid();                 //erase existing grid
   createGrid(userGridValue);   //create grid of user entered value
